@@ -20,6 +20,6 @@ public class Product {
 	@Override
 	public String toString() {
 		
-		return String.format("%03d\t  %s   %-7d %d    %s",prdNo,prdName,prdPrice,prdYear,prdMaker);
+		return String.format("%03d\t\t%3s\t%-7d\t%d\t%s",prdNo,prdName,prdPrice,prdYear,prdMaker);
 	}
 }

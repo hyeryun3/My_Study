@@ -7,8 +7,8 @@ public class ProductTest {
 		Product pd2 = new Product(002,"모니터",300000,2021,"LG");
 		Product pd3 = new Product(003,"마우스",30000,2020,"로지텍");
 		
-		System.out.println("상품번호  상품명   가격    연도    제조사");
-		System.out.println("-----------------------------------------");
+		System.out.println("상품번호\t상품명\t가격\t연도\t제조사");
+		System.out.println("-----------------------------------------------");
 		System.out.println(pd1.toString());
 		System.out.println(pd2.toString());
 		System.out.println(pd3.toString());

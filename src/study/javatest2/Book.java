@@ -59,7 +59,7 @@ public class Book {
 	}
 	@Override
 	public String toString() {
-		return String.format("%-9s %-9s\t %3s %7d %8d %11s", bookNo,bookTitle,bookAuthor,bookPrice,bookYear,bookPublisher);
+		return String.format("%-8s\t%s\t%s\t%d\t%d\t\t%3s", bookNo,bookTitle,bookAuthor,bookPrice,bookYear,bookPublisher);
 	}
 }
 
