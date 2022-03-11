@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="b1" class="book.Book">
+		<property name="bookName" value="SQL Plus"/>
+		<property name="bookPrice" value="50000"/>
+		<property name="bookDiscountRate" value="5.0"/>
+	</bean>
+	<bean id="b2" class="book.Book">
+		<property name="bookName" value="Java 2.0"/>
+		<property name="bookPrice" value="40000"/>
+		<property name="bookDiscountRate" value="3.0"/>
+	</bean>
+	<bean id="b3" class="book.Book">
+		<property name="bookName" value="JSP Servlet"/>
+		<property name="bookPrice" value="60000"/>
+		<property name="bookDiscountRate" value="6.0"/>
+	</bean>
+
+</beans>

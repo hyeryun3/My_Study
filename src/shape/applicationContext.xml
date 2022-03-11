@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="t1" class="shape.Triangle">
+		<property name="width" value="7"/>
+		<property name="height" value="5"/>
+		<property name="colors" value="Blue"/>
+	</bean>
+	<bean id="t2" class="shape.Triangle">
+		<property name="width" value="6"/>
+		<property name="height" value="7"/>
+		<property name="colors" value="Red"/>
+	</bean>
+	<bean id="t3" class="shape.Triangle">
+		<property name="width" value="9"/>
+		<property name="height" value="8"/>
+		<property name="colors" value="White"/>
+	</bean>
+	<bean id="r1" class="shape.Rectangle">
+		<property name="width" value="4"/>
+		<property name="height" value="6"/>
+		<property name="colors" value="Blue"/>
+	</bean>
+	<bean id="r2" class="shape.Rectangle">
+		<property name="width" value="8"/>
+		<property name="height" value="3"/>
+		<property name="colors" value="Red"/>
+	</bean>
+	<bean id="r3" class="shape.Rectangle">
+		<property name="width" value="5"/>
+		<property name="height" value="7"/>
+		<property name="colors" value="White"/>
+	</bean>
+
+
+
+</beans>
